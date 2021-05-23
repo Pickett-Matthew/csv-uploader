@@ -1,0 +1,20 @@
+total_happy_homes_leads,status,num_leads_in_status,leadSource,status_name
+557,23,206,Happy Homes USA,Attempted Contact
+557,21,110,Happy Homes USA,Working
+557,53,46,Happy Homes USA,Wrong Number
+557,30,37,Happy Homes USA,Pre - Failed to convince
+557,63,33,Happy Homes USA,Post - Failed to Convince
+557,3,19,Happy Homes USA,Appointment Scheduled
+557,80,17,Happy Homes USA Scheduled,Self Scheduled / Discovery
+557,31,13,Happy Homes USA,Lives out of State/Area
+557,5,11,Happy Homes USA,Do Not Contact
+557,59,11,Happy Homes USA,Post - Failed Credit
+557,46,10,Happy Homes USA,Pre - Failed Credit
+557,32,9,Happy Homes USA,Retire Lead
+557,58,8,Happy Homes USA,Post - Shading
+557,34,8,Happy Homes USA,Non-Homeowner
+557,18,6,Happy Homes USA,Customer
+557,4,6,Happy Homes USA,Cancelled
+557,1,3,Happy Homes USA,New Lead
+557,54,3,Happy Homes USA Scheduled,Lost to Competitor
+557,76,1,Happy Homes USA,Credit Repair

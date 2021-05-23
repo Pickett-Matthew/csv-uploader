@@ -3,8 +3,11 @@ export default {
   ssr: false,
 
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
-
+  target: 'server',
+  serverMiddleware: [
+    { path: '/', handler: '~/api/index.js' },
+    { path: '/deleteFile', handler: '~/api/delete.js' },
+  ],
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'rms-interview-challenge-boilerplate',
@@ -37,7 +40,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxt/content'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
