@@ -33,7 +33,6 @@ export default {
   },
   async fetch() {
     this.files = await this.$content('data').fetch()
-    console.log(this.files)
   },
   methods: {
     async deleteFile(event) {
@@ -45,6 +44,7 @@ export default {
         body: JSON.stringify({ path }),
       })
       const data = await res.json()
+      // eslint my fav
       console.log(data)
     },
   },

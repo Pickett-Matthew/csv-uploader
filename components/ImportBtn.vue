@@ -32,9 +32,7 @@ export default {
       this.uploadedFile = event.target.files[0]
       const fd = new FormData()
       fd.append('file', this.uploadedFile)
-      axios.post('/uploadCSV', fd).then((res) => {
-        console.log(res.data)
-      })
+      axios.post('/uploadCSV', fd).then((res) => {})
     },
   },
 }
